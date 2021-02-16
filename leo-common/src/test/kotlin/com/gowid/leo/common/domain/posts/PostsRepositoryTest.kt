@@ -1,13 +1,17 @@
 package com.gowid.leo.common.domain.posts
 
+import com.gowid.leo.api.LeoCommonApplication
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
-import org.springframework.boot.test.context.SpringBootTest
+import org.junit.jupiter.api.extension.ExtendWith
+import org.springframework.test.context.ContextConfiguration
 import org.springframework.test.context.TestConstructor
+import org.springframework.test.context.junit.jupiter.SpringExtension
 
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@ExtendWith(SpringExtension::class)
+@ContextConfiguration(classes = [LeoCommonApplication::class])
 @TestConstructor(autowireMode = TestConstructor.AutowireMode.ALL)
 internal class PostsRepositoryTest(private val postsRepository: PostsRepository) {
 
