@@ -1,9 +1,10 @@
 package com.gowid.leo.common.domain.posts
 
+import com.gowid.leo.common.domain.BaseTime
 import javax.persistence.*
 
 @Entity
-class Posts(title: String, content: String, author: String) {
+class Posts(title: String, content: String, author: String) : BaseTime() {
 
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)

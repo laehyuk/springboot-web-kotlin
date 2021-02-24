@@ -1,6 +1,6 @@
 package com.gowid.leo.common.domain.posts
 
-import com.gowid.leo.api.LeoCommonApplication
+import com.gowid.leo.common.LeoCommonApplication
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.DisplayName
@@ -13,7 +13,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension
 @ExtendWith(SpringExtension::class)
 @ContextConfiguration(classes = [LeoCommonApplication::class])
 @TestConstructor(autowireMode = TestConstructor.AutowireMode.ALL)
-internal class PostsRepositoryTest(private val postsRepository: PostsRepository) {
+internal class PostsRepositoryTest (private val postsRepository: PostsRepository) {
 
     @BeforeEach
     fun cleanUp() = postsRepository.deleteAll()

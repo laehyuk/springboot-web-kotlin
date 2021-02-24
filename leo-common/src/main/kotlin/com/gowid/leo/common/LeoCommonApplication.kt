@@ -1,4 +1,4 @@
-package com.gowid.leo.api
+package com.gowid.leo.common
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
