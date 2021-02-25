@@ -18,5 +18,10 @@ class Posts(title: String, content: String, author: String) : BaseTime() {
 
         var author: String = author
 
+        fun update(title: String, content: String) {
+                this.title = title
+                this.content = content
+        }
+
 }
 
