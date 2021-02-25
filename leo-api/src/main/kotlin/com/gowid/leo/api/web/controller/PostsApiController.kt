@@ -11,4 +11,5 @@ class PostsApiController(private val postsService: PostsService) {
 
     @PostMapping("/api/v1/posts")
     fun save(@RequestBody requestDto : PostsSaveRequestDto) : Long? = postsService.save(requestDto)
+
 }
