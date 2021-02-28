@@ -4,8 +4,8 @@ import com.gowid.leo.common.domain.posts.Posts
 
 data class PostsSaveRequestDto(
     val title: String,
-    val author: String,
-    val content: String
+    val content: String,
+    val author: String
 ){
     fun toEntity(): Posts = Posts(title = title, content = content, author = author)
 }

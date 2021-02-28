@@ -35,11 +35,11 @@ internal class PostsApiControllerTests(
         val url: String? = "http://localhost:$port/api/v1/posts"
 
         //when
-        val responseEntity: ResponseEntity<Long>
-                = restTemplate.postForEntity(url, requestDto, Long::class.java)
+        val responseEntity: ResponseEntity<Object>
+                = restTemplate.postForEntity(url, requestDto, Object::class.java)
 
         assertThat(responseEntity.statusCode).isEqualTo(HttpStatus.OK)
-        assertThat(responseEntity.body).isGreaterThan(0)
+        assertThat(responseEntity.body).isNotNull
 
         //then
         val posts = postsRepository.findAll()
