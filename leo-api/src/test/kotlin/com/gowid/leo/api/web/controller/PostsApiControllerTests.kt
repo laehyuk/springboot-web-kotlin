@@ -39,7 +39,7 @@ internal class PostsApiControllerTests(
                 = restTemplate.postForEntity(url, requestDto, Object::class.java)
 
         assertThat(responseEntity.statusCode).isEqualTo(HttpStatus.OK)
-//        assertThat(responseEntity.body).isGreaterThan(0)
+        assertThat(responseEntity.body).isNotNull
 
         //then
         val posts = postsRepository.findAll()
