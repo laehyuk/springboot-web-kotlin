@@ -16,6 +16,7 @@ import org.springframework.http.HttpMethod
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.test.context.TestConstructor
+import org.springframework.transaction.annotation.Transactional
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @TestConstructor(autowireMode = TestConstructor.AutowireMode.ALL)
@@ -76,6 +77,23 @@ internal class PostsApiControllerTests(
         assertThat(all[0].content).isEqualTo(expectedContent)
     }
 
+    @Test
+    fun `Posts_삭제된다`() {
+        //given
+        val savedPosts = postsRepository.save(Posts(title = "title", content = "content", author = "author"))
+
+        val postId = savedPosts.id
+        val url: String? = "http://localhost:$port/api/v1/posts/$postId"
+
+        //when
+        val responseEntity = restTemplate.exchange(url, HttpMethod.DELETE, null, Object::class.java)
+
+        //then
+        val post = postId?.let { postsRepository.findById(it) }
+        assertThat(responseEntity.statusCode).isEqualTo(HttpStatus.OK)
+        assertThat(post).isEmpty
+
+    }
 
 }
 
