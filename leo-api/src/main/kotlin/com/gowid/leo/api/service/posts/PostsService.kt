@@ -16,15 +16,6 @@ class PostsService(private val postsRepository: PostsRepository) {
     @Transactional
     fun save(requestDto: PostsSaveRequestDto): Long? = postsRepository.save(requestDto.toEntity()).id
 
-    @Transactional
-    fun update(id: Long, requestDto: PostsUpdateRequestDto): Long? {
-        val posts = findByIdOrThrowException(id)
-
-        posts.update(requestDto.title, requestDto.content)
-
-        return posts.id
-    }
-
     @Transactional(readOnly = true)
     fun findById(id: Long): PostsResponseDto {
         val posts = findByIdOrThrowException(id)
@@ -39,6 +30,15 @@ class PostsService(private val postsRepository: PostsRepository) {
     }
 
     @Transactional
+    fun update(id: Long, requestDto: PostsUpdateRequestDto): Long? {
+        val posts = findByIdOrThrowException(id)
+
+        posts.update(requestDto.title, requestDto.content)
+
+        return posts.id
+    }
+
+    @Transactional
     fun delete(id: Long) {
         val posts = findByIdOrThrowException(id)
 
@@ -49,6 +49,5 @@ class PostsService(private val postsRepository: PostsRepository) {
         return postsRepository.findByIdOrNull(id)
                 ?: throw IllegalArgumentException("해당 게시글이 없습니다. id=${id}")
     }
-
 
 }
