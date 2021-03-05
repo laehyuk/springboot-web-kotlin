@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="15f0609c-03ea-4aff-9d7d-8e367672e40e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/leo-api">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/leo-common">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Enum" />
+        <option value="Kotlin Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oWMEoP24TwCD2zblwcnfKm3G91" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/leo-common/src/test/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leo-api/src/main/resources/templates/posts" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.gowid.leo.common" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.gowid.leo.common.domain.posts" />
+      <recent name="com.gowid.leo.common.domain" />
+      <recent name="com.gowid.leo.common.domain.users" />
+      <recent name="com.gowid.leo.common.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leo-common/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LeoApiApplication">
+    <configuration name="PostsApiControllerTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.gowid.leo.api.web.controller.PostsApiControllerTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":leo-api:cleanTest" />
+            <option value=":leo-api:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PostsApiControllerTests.Posts_등록된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.gowid.leo.api.web.controller.PostsApiControllerTests.Posts_등록된다&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":leo-api:cleanTest" />
+            <option value=":leo-api:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PostsApiControllerTests.Posts_수정된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.gowid.leo.api.web.controller.PostsApiControllerTests.Posts_수정된다&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":leo-api:cleanTest" />
+            <option value=":leo-api:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PostsRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/leo-common" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.gowid.leo.common.domain.posts.PostsRepositoryTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":leo-common:cleanTest" />
+            <option value=":leo-common:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PostsRepositoryTest.registerBaseTimeEntity" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.gowid.leo.common.domain.posts.PostsRepositoryTest.registerBaseTimeEntity&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":leo-common:cleanTest" />
+            <option value=":leo-common:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LeoApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="leo-api.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gowid.leo.api.LeoApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeoApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="leo.leo-api.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gowid.leo.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gowid.leo.api.LeoApiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeoCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="leo.leo-common.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gowid.leo.common.LeoCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.PostsApiControllerTests" />
+      <item itemvalue="Gradle.PostsApiControllerTests.Posts_등록된다" />
+      <item itemvalue="Gradle.PostsRepositoryTest" />
+      <item itemvalue="Gradle.PostsRepositoryTest.registerBaseTimeEntity" />
+      <item itemvalue="Spring Boot.LeoCommonApplication" />
+      <item itemvalue="Spring Boot.LeoApiApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.LeoApiApplication" />
+        <item itemvalue="Gradle.PostsRepositoryTest.registerBaseTimeEntity" />
+        <item itemvalue="Gradle.PostsApiControllerTests" />
+        <item itemvalue="Gradle.PostsApiControllerTests.Posts_등록된다" />
+        <item itemvalue="Gradle.PostsRepositoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15f0609c-03ea-4aff-9d7d-8e367672e40e" name="Default Changelist" comment="" />
+      <created>1613397783210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613397783210</updated>
+      <workItem from="1613397784518" duration="252000" />
+      <workItem from="1613398080913" duration="933000" />
+      <workItem from="1613484351220" duration="2886000" />
+      <workItem from="1613487259223" duration="1737000" />
+      <workItem from="1613489095937" duration="408000" />
+      <workItem from="1613646945944" duration="1313000" />
+      <workItem from="1613648589978" duration="3568000" />
+      <workItem from="1613653183724" duration="658000" />
+      <workItem from="1613654046892" duration="1061000" />
+      <workItem from="1613655151636" duration="1335000" />
+      <workItem from="1613723052844" duration="5612000" />
+      <workItem from="1614563001199" duration="838000" />
+      <workItem from="1614588609805" duration="624000" />
+      <workItem from="1614945528294" duration="1338000" />
+      <workItem from="1614946898115" duration="282000" />
+      <workItem from="1614947207179" duration="2553000" />
+    </task>
+    <task id="LOCAL-00001" summary="test: add test for posts domain">
+      <created>1613486269190</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613486269190</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: posts domain&amp;repository">
+      <created>1613486350639</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613486350639</updated>
+    </task>
+    <task id="LOCAL-00003" summary="chore: add annotation">
+      <created>1613486382884</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613486382884</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix: posts entity 필드 수정">
+      <created>1613489367765</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613489367765</updated>
+    </task>
+    <task id="LOCAL-00005" summary="cleanup: 불필요 의존성 제거">
+      <created>1613489383425</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613489383425</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: 멀티모듈 main app 추가">
+      <created>1613489412500</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613489412500</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test: 테스트 환경 수정">
+      <created>1613489423284</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613489423284</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: add view files">
+      <created>1614949261705</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614949261705</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: BaseEntity">
+      <created>1614949843082</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614949843082</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: User">
+      <created>1614950064295</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614950064295</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: 권한">
+      <created>1614950078297</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614950078297</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: oauth 관련 설정">
+      <created>1614950096305</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1614950096305</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test: add test for posts domain" />
+    <MESSAGE value="feat: posts domain&amp;repository" />
+    <MESSAGE value="chore: add annotation" />
+    <MESSAGE value="fix: posts entity 필드 수정" />
+    <MESSAGE value="cleanup: 불필요 의존성 제거" />
+    <MESSAGE value="feat: 멀티모듈 main app 추가" />
+    <MESSAGE value="test: 테스트 환경 수정" />
+    <MESSAGE value="feat: add view files" />
+    <MESSAGE value="feat: BaseEntity" />
+    <MESSAGE value="feat: User" />
+    <MESSAGE value="feat: 권한" />
+    <MESSAGE value="feat: oauth 관련 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: oauth 관련 설정" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/leo-api/src/test/kotlin/com/gowid/leo/api/web/controller/PostsApiControllerTests.kt</url>
+          <line>42</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/leo-api/src/main/kotlin/com/gowid/leo/api/service/posts/PostsService.kt</url>
+          <line>2</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/leo-api/src/test/kotlin/com/gowid/leo/api/web/controller/PostsApiControllerTests.kt</url>
+          <line>57</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="leo-api.main" target="1.8" />
+      <module name="leo-api.test" target="1.8" />
+      <module name="leo-common.main" target="1.8" />
+      <module name="leo-common.test" target="1.8" />
+      <module name="leo.leo-api.main" target="1.8" />
+      <module name="leo.leo-api.test" target="1.8" />
+      <module name="leo.leo-common.main" target="1.8" />
+      <module name="leo.leo-common.test" target="1.8" />
+      <module name="leo.main" target="1.8" />
+      <module name="leo.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

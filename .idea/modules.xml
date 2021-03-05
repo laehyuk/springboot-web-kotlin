@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/leo.iml" filepath="$PROJECT_DIR$/.idea/modules/leo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leo-api/leo-api.iml" filepath="$PROJECT_DIR$/leo-api/leo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leo-common/leo-common.iml" filepath="$PROJECT_DIR$/leo-common/leo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/leo-api/leo.leo-api.iml" filepath="$PROJECT_DIR$/.idea/modules/leo-api/leo.leo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/leo-api/leo.leo-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/leo-api/leo.leo-api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/leo-api/leo.leo-api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/leo-api/leo.leo-api.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/leo-common/leo.leo-common.iml" filepath="$PROJECT_DIR$/.idea/modules/leo-common/leo.leo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/leo-common/leo.leo-common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/leo-common/leo.leo-common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/leo-common/leo.leo-common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/leo-common/leo.leo-common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/leo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/leo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/leo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/leo.test.iml" />
+    </modules>
+  </component>
+</project>
