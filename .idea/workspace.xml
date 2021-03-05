@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15f0609c-03ea-4aff-9d7d-8e367672e40e" name="Default Changelist" comment="" />
+    <list default="true" id="15f0609c-03ea-4aff-9d7d-8e367672e40e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/leo-common/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/leo-common" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -73,6 +75,7 @@
       <recent name="com.gowid.leo.common.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leo-common" />
       <recent name="$PROJECT_DIR$/leo-common/src/test/resources" />
     </key>
   </component>
@@ -260,7 +263,7 @@
       <workItem from="1614588609805" duration="624000" />
       <workItem from="1614945528294" duration="1338000" />
       <workItem from="1614946898115" duration="282000" />
-      <workItem from="1614947207179" duration="2553000" />
+      <workItem from="1614947207179" duration="2803000" />
     </task>
     <task id="LOCAL-00001" summary="test: add test for posts domain">
       <created>1613486269190</created>
