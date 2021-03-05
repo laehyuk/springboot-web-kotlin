@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15f0609c-03ea-4aff-9d7d-8e367672e40e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leo-api/src/main/resources/application-oauth.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leo-common/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/leo-common/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -263,7 +265,7 @@
       <workItem from="1614588609805" duration="624000" />
       <workItem from="1614945528294" duration="1338000" />
       <workItem from="1614946898115" duration="282000" />
-      <workItem from="1614947207179" duration="2803000" />
+      <workItem from="1614947207179" duration="2942000" />
     </task>
     <task id="LOCAL-00001" summary="test: add test for posts domain">
       <created>1613486269190</created>
