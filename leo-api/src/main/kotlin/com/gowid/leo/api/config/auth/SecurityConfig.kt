@@ -28,8 +28,5 @@ class SecurityConfig (private val customOAuth2UserService : CustomOAuth2UserServ
                     .userInfoEndpoint()
                     .userService(customOAuth2UserService)
         }
-
     }
-
-
 }

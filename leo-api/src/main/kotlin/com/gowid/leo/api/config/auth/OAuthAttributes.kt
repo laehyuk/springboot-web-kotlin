@@ -28,7 +28,7 @@ data class OAuthAttributes(
                     picture = attributes["picture"] as String
             )
         }
-    }
 
+    }
 
 }
