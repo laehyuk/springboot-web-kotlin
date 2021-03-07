@@ -19,8 +19,6 @@ dependencies {
     api("com.google.code.gson:gson:2.8.5")
 
     implementation("com.h2database:h2")
-    implementation("org.springframework.boot:spring-boot-starter-oauth2-client")
-    implementation("org.springframework.boot:spring-boot-starter-security")
     compileOnly("org.projectlombok:lombok")
     runtimeOnly("mysql:mysql-connector-java")
     annotationProcessor("org.projectlombok:lombok")
