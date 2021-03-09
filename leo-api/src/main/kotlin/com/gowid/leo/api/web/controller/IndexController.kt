@@ -1,5 +1,7 @@
 package com.gowid.leo.api.web.controller
 
+import com.gowid.leo.api.config.auth.LoginUser
+import com.gowid.leo.api.config.auth.SessionUser
 import com.gowid.leo.api.service.posts.PostsService
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
@@ -13,7 +15,12 @@ class IndexController (
 ){
 
     @GetMapping("/")
-    fun index(model : Model) : String {
+    fun index(model : Model, @LoginUser sessionUser: SessionUser) : String {
+        model.addAttribute("posts", postsService.findAllDesc())
+
+        sessionUser?.let {
+            model.addAttribute("userName", sessionUser.name)
+        }
 
         return "index";
     }
